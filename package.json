@@ -19,5 +19,8 @@
   "homepage": "https://github.com/PietraValen/Sistema-de-reserva#readme",
   "devDependencies": {
     "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "firebase": "^9.19.1"
   }
 }
