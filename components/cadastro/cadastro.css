@@ -1,0 +1,76 @@
+/* Estilos para o body */
+body {
+    font-family: 'SF UI Text', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o header */
+.header-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Estilos para a logo */
+.header-cadastro img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o título */
+.header-cadastro h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o parágrafo */
+.header-cadastro p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para os labels */
+.header-cadastro label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Estilos para os inputs */
+.header-cadastro input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Estilos para os botões */
+.header-cadastro button {
+    background-color: #1E90FF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilos para o botão "Entrar" */
+.header-cadastro button:first-child {
+    margin-right: 10px;
+}
+
+/* Estilos para o botão "Criar conta" */
+.header-cadastro button:last-child {
+    background-color: #fff;
+    color: #1E90FF;
+    border: 1px solid #1E90FF;
+}
